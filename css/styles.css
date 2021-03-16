@@ -1,0 +1,35 @@
+.raya-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-stream-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-stream-container canvas{
+    padding-top: 50px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.play{
+    background-color: red;
+    color: white;
+}
+
+h1{
+
+}
