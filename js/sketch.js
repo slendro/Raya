@@ -24,9 +24,9 @@ function setup(){
     outputCanvas = createCanvas(targetWidth, targetHeight, WEBGL);
     outputCanvas.id('targetoutput');
 
-    angle1 = createVideo(["../video/1.mp4"],angle1Load);
-    angle2 = createVideo(["../video/2.mp4"],angle2Load);
-    angle3 = createVideo(["../video/3.mp4"],angle3Load);
+    angle1 = createVideo(["ftp://192713ftp1@e126393-ftp.services.easyname.eu/html/slend.ro/test/1.mp4"],angle1Load);
+    angle2 = createVideo(["ftp://192713ftp1@e126393-ftp.services.easyname.eu/html/slend.ro/test/2.mp4"],angle2Load);
+    angle3 = createVideo(["ftp://192713ftp1@e126393-ftp.services.easyname.eu/html/slend.ro/test/3.mp4"],angle3Load);
 
     angles = [angle1, angle2, angle3];
 
